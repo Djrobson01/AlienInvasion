@@ -11,7 +11,7 @@ class Lives(Sprite):
         self.settings = ai_game.settings
 
         # Load image
-        self.image = pygame.image.load('AlienInvasion/images/fighter.bmp')
+        self.image = pygame.image.load('Python Project/AlienInvasion/images/fighter.bmp')
         self.rect = self.image.get_rect()
 
         # Place image at the bottom left of the screen

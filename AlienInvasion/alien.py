@@ -9,7 +9,7 @@ class Alien(Sprite):
         self.settings = ai_game.settings
 
         # Load image of alien and set its rect attribute
-        self.image = pygame.image.load('AlienInvasion/images/alien.bmp')
+        self.image = pygame.image.load('Python Projects/AlienInvasion/images/alien.bmp')
         # Sets dimensions of image as the rectangle for this sprite
         self.rect = self.image.get_rect()
 
